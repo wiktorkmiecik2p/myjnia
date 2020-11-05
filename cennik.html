@@ -22,48 +22,52 @@
                 </ul>
             </nav>
         </header>
-        
+
         <main>
             <h2>Oblicz koszt usługi</h2>
             <br>
-            
-            <form>
-            <p>Podaj swoje imię: <input type="text" placeholder="Wpisz swoje imię"></p>
-            <fieldset>
-                <legend>Usługi</legend>
-                <p>Mycie zewnętrzne 30zł <input type="checkbox" checked></p>
-                <p>Suszenie 10zł <input type="checkbox"></p>
-                <p>Woskowanie 15zł <input type="checkbox"></p>
-                <p>Odkurzanie 10zł<input type="checkbox"></p>
-            </fieldset>    
+            <div class="aaa">
+                <form>
+                    <p>Podaj swoje imię: <input type="text" placeholder="Wpisz swoje imię"></p>
+                    <br>
+                    <fieldset>
+                        <legend>Usługa</legend>
+                        <p>Mycie zewnętrzne 30zł <input type="checkbox" checked></p>
+                        <p>Suszenie 10zł <input type="checkbox"></p>
+                        <p>Woskowanie 15zł <input type="checkbox"></p>
+                        <p>Odkurzanie 10zł<input type="checkbox"></p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Rodzaj pojazdu</legend>
+                        <select>
+                            <option>Mały</option>
+                            <option>Średni (+10%)</option>
+                            <option>Van (+20%)</option>
+                            <option>Bus (+45%)</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Karta stałego klienta</legend>
+                        <label>Brak<input type="radio" value="brak" checked></label><br>
+                        <label>Srebna (-5%)<input type="radio" value="srebna"></label><br>
+                        <label>Złota (-15%)<input type="radio" value="zlota"></label><br>
+                    </fieldset>
 
-            <fieldset>
-                <legend>Rodzaj pojazdu</legend>
-                <select>
-                    <option>Mały</option>
-                    <option>Średni (+10%)</option>
-                    <option>Van (+20%)</option>
-                    <option>Bus (+45%)</option>
-                </select>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Karta stałego klienta</legend>
-                <label>Brak<input type="radio" value="brak" checked></label><br>
-                <label>Srebna (-5%)<input type="radio" value="srebna"></label><br>
-                <label>Złota (-15%)<input type="radio" value="zlota"></label><br>
-            </fieldset>
-            
-            <p><input type="reset" value="Wyczyść"> <input type="submit" value="Oblicz" /></p>
-                <p class="aa">Koszt usługi:</p>
-        </form>
+                    <p><input type="reset" value="Wyczyść"> <input type="submit" value="Oblicz" /></p>
+                </form>
+                <img src="zdjecia/hand_m.jpg">
+            </div>
+            <p class="aa">Koszt usługi:</p>
         </main>
 
         <section>
             <h3>Rezerwacja na godzinę</h3>
-            <p>Rezerwacja na godzinę - rezerwuj termin mycia samochodu. Masz mało czasu? Nie lubisz czekać? Zarezerwuj mycie pojazdu na konkretną godzinę</p>
+            <p>Rezerwacja na godzinę - rezerwuj termin mycia samochodu. Masz mało czasu? Nie lubisz czekać? Zarezerwuj
+                mycie pojazdu na konkretną godzinę</p>
         </section>
-        
+
         <footer>
             <p>Wiktor Kmiecik 2P</p>
         </footer>
