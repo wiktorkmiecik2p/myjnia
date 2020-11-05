@@ -24,3 +24,12 @@ header{
     border-bottom: 1px solid ;
     padding: 3%;
 }
+
+main{
+    background-color:  hsl(240, 50%, 90%);
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
